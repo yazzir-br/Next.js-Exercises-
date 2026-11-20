@@ -1,7 +1,7 @@
-import { NextResponse } from 'next/server'
+import { NextResponse } from 'next/server';
 
 type Params = {
-  params: Promise<{ username: string }>
+  params: Promise<{ username: string }>;
 };
 
 export async function GET(_req: Request, { params }: Params) {
